@@ -2,6 +2,9 @@
 [🇷🇺 Русский](README.md) | [🇺🇸 English](README_en.md)
 
 [![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/License-PolyForm%20Noncommercial%201.0.0-blue.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-success.svg)](https://github.com/xYumix/Keyboard_Lock/releases/latest)
+
+> **📥 [Download Latest Release (ZIP)](https://github.com/xYumix/Keyboard_Lock/releases/latest)**
 
 This project is a handy program that automatically blocks your laptop's built-in keyboard (for example, on an HP Omen 15 or any other model) so it doesn't get in the way when you connect an external USB keyboard. The program runs quietly in the background and minimizes to the system tray (the icon near the clock in the bottom right corner of the screen).
 
@@ -31,8 +34,8 @@ If you have never worked with programming or scripts, don't be intimidated! Just
 * **VERY IMPORTANT:** In the very first installation window, at the very bottom, make sure to check the box **"Add Python to PATH"** (or "Add python.exe to PATH"). Without this, the program won't run! After that, click "Install Now".
 
 **2. Installing (or Uninstalling) the Interception Driver**
-* Download this project to your computer (green Code button -> Download ZIP) and make sure to **extract** the archive to a convenient folder.
-* Open the `Install Interception Driver` folder inside your downloaded project. Inside, you will find two files to manage the driver: `install driver` (to install) and `uninstall driver` (to uninstall).
+* Download the ready-to-use archive from the **[ Releases ](https://github.com/xYumix/Keyboard_Lock/releases/latest)** section and make sure to **extract** it to a convenient folder.
+* Open the `Install Interception Driver` folder inside the extracted project. Inside, you will find two files to manage the driver: `install driver` (to install) and `uninstall driver` (to uninstall).
 * To install, double-click the `install driver` (or `install driver.py`) file.
 * The script will ask for administrator privileges (feel free to click "Yes") and automatically run the process. A black console window will confirm a successful installation.
 * **VERY IMPORTANT: Be sure to restart your computer** after the installation, otherwise the driver will not work and the keyboard will not be intercepted!
